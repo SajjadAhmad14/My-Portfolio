@@ -3,13 +3,18 @@
 :root {
   --blue-genie: #6070ff;
   --white: #fff;
+  --nile-blue: #172b4d;
+  --gulf-blue: #344563;
+  --blueberry: #7f8cff;
 }
 
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
 header {
   display: flex;
   justify-content: space-between;
   color: var(--blue-genie);
-  font-family: "Poppins", sans-serif;
 }
 
 header h1 {
@@ -21,4 +26,26 @@ header h1 {
 .hamburger {
   color: var(--blue-genie);
   font-size: 22px;
+}
+
+.headline h1 {
+  color: var(--nile-blue);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin: 12px 0px;
+}
+
+.headline p {
+  color: var(--gulf-blue);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px 0px;
+  line-height: 24px;
+}
+
+.headline h2 {
+  color: var(--blueberry);
+  font-size: 16px;
+  font-weight: 500;
 }
