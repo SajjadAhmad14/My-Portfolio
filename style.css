@@ -77,13 +77,3 @@ header h1 {
 .social img {
   margin-right: 10px;
 }
-
-.fa-twitter,
-.fa-linkedin-in,
-.fa-github,
-.fa-angellist {
-  width: 20px;
-  height: 13.72px;
-  font-size: 25px;
-  margin-right: 15px;
-}
