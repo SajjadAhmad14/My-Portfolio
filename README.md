@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Description the project.
+> This is the site where I will showcase my projects and experience.
 
 
 ## Built With
@@ -10,7 +10,7 @@
 - HTML, CSS, JavaScript
 - Git, GitHub, Figma, Vscode
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
