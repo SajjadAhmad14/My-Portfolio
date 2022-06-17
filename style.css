@@ -177,7 +177,7 @@ ul.work-languages {
   text-align: center;
 }
 
-.work-card button {
+.work-card button, .about button {
   font-weight: 500;
   font-size: 17px;
   color: #396df2;
@@ -188,12 +188,55 @@ ul.work-languages {
   background-color: transparent;
 }
 
-.work-card button:hover {
+.work-card button:hover, .about button:hover {
   background-color: #6070ff;
   color: #ffffff;
 }
 
-.work-card button:active {
+.work-card button:active, .about button:active {
   background-color: #2230d2;
   color: #ffffff;
+}
+
+.about {
+  background-color: #ffffff;
+  border-top-right-radius: 60px;
+  padding: 80px 10px 80px 10px;
+}
+
+.about h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: var(--nile-blue);
+  width: 50%;
+  margin: 0;
+}
+
+.about p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--gulf-blue);
+}
+
+.about a {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--blueberry);
+  text-decoration: none;
+}
+
+.about-social {
+  color: #505f79;
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.about-social a {
+  margin-right: 20px;
+}
+
+.about button {
+  padding-right: 20px;
+  padding-left: 20px;
 }
