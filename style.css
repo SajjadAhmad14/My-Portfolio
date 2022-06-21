@@ -20,9 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   color: var(--blue-genie);
-  padding-bottom: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 20px 20px 30px 20px;
   background-color: #ffffff;
 }
 
@@ -178,7 +176,8 @@ ul.work-languages {
   text-align: center;
 }
 
-.work-card button, .about button {
+.work-card button,
+.about button {
   font-weight: 500;
   font-size: 17px;
   color: #396df2;
@@ -189,12 +188,15 @@ ul.work-languages {
   background-color: transparent;
 }
 
-.work-card button:hover, .about button:hover {
+.work-card button:hover,
+.about button:hover,
+#submit:hover {
   background-color: #6070ff;
   color: #ffffff;
 }
 
-.work-card button:active, .about button:active {
+.work-card button:active,
+.about button:active #submit:active {
   background-color: #2230d2;
   color: #ffffff;
 }
@@ -242,7 +244,9 @@ ul.work-languages {
   padding-left: 20px;
 }
 
-.about-languages, .about-framworks, .about-skills {
+.about-languages,
+.about-framworks,
+.about-skills {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
@@ -257,7 +261,7 @@ ul.work-languages {
 }
 
 .separator {
-  width: 100%; 
+  width: 100%;
 }
 
 .about-languages .lang-text,
@@ -272,7 +276,7 @@ ul.work-languages {
 .about-framworks .fram-arrow,
 .about-skills .skills-arrow {
   margin-right: 60px;
-  color: #acB7c3;
+  color: #acb7c3;
   font-size: 20px;
 }
 
@@ -298,5 +302,73 @@ ul.work-languages {
 }
 
 .lang-list li img {
-  margin-right: 15px; 
+  margin-right: 15px;
+}
+
+.contact {
+  background-color: var(--blue-genie);
+  margin-top: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.contact h4 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  padding: 0 20px;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  width: 85%;
+  height: 40px;
+}
+
+form #email,
+form #name {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+form #email,
+form #name,
+form textarea {
+  border: 1px solid #cfd8bc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: var(--nile-blue);
+  padding-left: 15px;
+}
+
+form #message {
+  display: inline-block;
+  width: 85%;
+  height: 180px;
+  padding-top: 10px;
+}
+
+.submit-container {
+  display: flex;
+}
+
+form #submit {
+  color: var(--blue-genie);
+  margin-left: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
 }
