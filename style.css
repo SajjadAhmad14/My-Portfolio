@@ -204,7 +204,8 @@ ul.work-languages {
 .about {
   background-color: #ffffff;
   border-top-right-radius: 60px;
-  padding: 80px 10px 80px 10px;
+  padding: 80px 10px 180px 10px;
+  margin-bottom: -70px;
 }
 
 .about h1 {
@@ -308,8 +309,13 @@ ul.work-languages {
 .contact {
   background-color: var(--blue-genie);
   margin-top: 0;
-  padding: 10px 0;
+  padding: 110px 0 30px 0;
   text-align: center;
+  border-top-left-radius: 70px;
+  background-image: url("assets/contact-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: 170px -10px;
 }
 
 .contact h4 {
@@ -328,17 +334,12 @@ ul.work-languages {
 
 form {
   text-align: center;
+  padding-top: 20px;
 }
 
 form input {
   width: 85%;
   height: 40px;
-}
-
-form #email,
-form #name {
-  font-size: 17px;
-  font-weight: 400;
 }
 
 form #email,
@@ -349,13 +350,19 @@ form textarea {
   margin-bottom: 20px;
   color: var(--nile-blue);
   padding-left: 15px;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 form #message {
-  display: inline-block;
   width: 85%;
   height: 180px;
   padding-top: 10px;
+}
+
+textarea::placeholder {
+  text-align: left;
+  padding: 0;
 }
 
 .submit-container {
@@ -371,4 +378,10 @@ form #submit {
   outline: none;
   border: none;
   padding: 12px 16px;
+}
+
+.contact-line {
+  margin-bottom: -30px;
+  margin-top: 35px;
+  padding-bottom: 20px;
 }
