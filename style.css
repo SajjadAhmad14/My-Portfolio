@@ -358,15 +358,19 @@ form #message {
   width: 85%;
   height: 180px;
   padding-top: 10px;
+  padding-left: -100px;
 }
 
 textarea::placeholder {
   text-align: left;
-  padding: 0;
 }
 
 .submit-container {
   display: flex;
+}
+
+textarea {
+  text-align:left 
 }
 
 form #submit {
@@ -384,4 +388,35 @@ form #submit {
   margin-bottom: -30px;
   margin-top: 35px;
   padding-bottom: 20px;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    color: var(--gulf-blue);
+  }
+
+  header {
+    padding: 20px 60px 30px 60px;
+  }
+
+  .headline {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 150px;
+    background-position: 20px -10px;
+    background-size: contain;
+    background-image: url("./assets/header-desktop.svg");
+  }
 }
