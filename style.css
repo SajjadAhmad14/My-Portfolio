@@ -6,6 +6,8 @@
   --nile-blue: #172b4d;
   --gulf-blue: #344563;
   --blueberry: #7f8cff;
+  --halite-blue: #091e42;
+  --menacing-clouds: #6b778c;
 }
 
 body {
@@ -314,7 +316,7 @@ ul.work-languages {
   border-top-left-radius: 70px;
   background-image: url("assets/contact-shapes-mobile.svg");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   background-position: 170px -10px;
 }
 
@@ -370,7 +372,7 @@ textarea::placeholder {
 }
 
 textarea {
-  text-align:left 
+  text-align: left;
 }
 
 form #submit {
@@ -391,6 +393,10 @@ form #submit {
 }
 
 .nav-desktop {
+  display: none;
+}
+
+.work-card-desktop {
   display: none;
 }
 
@@ -418,5 +424,105 @@ form #submit {
     background-position: 20px -10px;
     background-size: contain;
     background-image: url("./assets/header-desktop.svg");
+    border-bottom-left-radius: 90px;
+  }
+
+  .headline h1 {
+    color: var(--halite-blue);
+    font-size: 48px;
+  }
+
+  .headline p {
+    font-size: 20px;
+  }
+
+  .work-card {
+    display: none;
+  }
+
+  .work-card-desktop {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #a7aeff;
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 85%;
+  }
+
+  .work-card-desktop img {
+    margin-right: 40px;
+    width: 544px;
+    height: 430px;
+  }
+
+  .work-card-desktop .project-details {
+    margin-top: 30px;
+    align-self: flex-start;
+  } 
+
+  .work-card-desktop h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--halite-blue);
+  }
+
+  .work-card-desktop p {
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+
+  .role {
+    display: flex;
+  }
+
+  .tech-role li {
+    color: var(--menacing-clouds);
+    font-size: 18px;
+  }
+
+  .work-card-desktop .work-languages {
+    display: flex;
+  }
+
+  .work-card-desktop .work-languages {
+    margin-bottom: 10px;
+  }
+
+  .work-card-desktop .lang-items {
+    padding: 4px 8px;
+    display: inline-block;
+    width: auto;
+    font-weight: 500;
+  }
+
+  .work-card-desktop p {
+    color: var(--gulf-blue);
+  }
+
+  .work-card-desktop button {
+    font-weight: 500;
+    font-size: 17px;
+    color: #396df2;
+    line-height: 24px;
+    padding: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-top: 25px;
+  }
+
+  .work-card-desktop button:hover {
+    background-color: #6070ff;
+    color: #ffffff;
+  }
+
+  .work-card-desktop button:active {
+    background-color: #2230d2;
+    color: #ffffff;
   }
 }
