@@ -400,6 +400,11 @@ form #submit {
   display: none;
 }
 
+.about-desktop,
+.about-skills-desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .hamburger {
     display: none;
@@ -466,7 +471,7 @@ form #submit {
   .work-card-desktop .project-details {
     margin-top: 30px;
     align-self: flex-start;
-  } 
+  }
 
   .work-card-desktop h3 {
     margin-top: 0;
@@ -529,5 +534,26 @@ form #submit {
   .work-card-desktop button:active {
     background-color: #2230d2;
     color: #ffffff;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .about-mobile,
+  .about-skills-mobile {
+    display: none;
+  }
+
+  .about-desktop,
+  .about-skills-desktop {
+    display: block;
+  }
+
+  .about-desktop p{
+    padding-right: 200px;
   }
 }
