@@ -436,6 +436,10 @@ form #submit {
     font-size: 20px;
   }
 
+  .work {
+    margin-top: 70px;
+  }
+
   .work-card {
     display: none;
   }
@@ -450,6 +454,7 @@ form #submit {
     background-color: #ffffff;
     padding: 10px;
     width: 85%;
+    margin-bottom: 70px;
   }
 
   .work-card-desktop img {
