@@ -463,9 +463,17 @@ form #submit {
   }
 
   .work-card-desktop img {
+    max-width: 50%;
+    /* max-width: 544px; */
+    height: auto;
+  }
+
+  .project-1 img, .project-3 img {
     margin-right: 40px;
-    width: 544px;
-    height: 430px;
+  } 
+
+  .project-2 img, .project-4 img {
+    margin-left: 40px;
   }
 
   .work-card-desktop .project-details {
