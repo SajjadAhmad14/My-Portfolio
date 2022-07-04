@@ -464,7 +464,6 @@ form #submit {
 
   .work-card-desktop img {
     max-width: 50%;
-    /* max-width: 544px; */
     height: auto;
   }
 
@@ -559,6 +558,14 @@ form #submit {
   .about-desktop,
   .about-skills-desktop {
     display: block;
+  }
+
+  .about-desktop {
+    border-top-right-radius: 90px;
+  }
+
+  .about-desktop h1 {
+    color: var(--halite-blue);
   }
 
   .about-desktop p{
