@@ -205,7 +205,7 @@ ul.work-languages {
 
 .about {
   background-color: #ffffff;
-  border-top-right-radius: 60px;
+  border-top-right-radius: 90px;
   padding: 80px 10px 180px 10px;
   margin-bottom: -70px;
 }
@@ -467,12 +467,19 @@ form #submit {
     height: auto;
   }
 
-  .project-1 img, .project-3 img {
+  .project-1 img,
+  .project-3 img {
     margin-right: 40px;
-  } 
+  }
 
-  .project-2 img, .project-4 img {
+  .project-2 img,
+  .project-4 img {
     margin-left: 40px;
+  }
+
+  .project-2 .project-details,
+  .project-4 .project-details {
+    margin-left: 10px;
   }
 
   .work-card-desktop .project-details {
@@ -546,8 +553,8 @@ form #submit {
   .about {
     display: flex;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .about-mobile,
@@ -568,7 +575,56 @@ form #submit {
     color: var(--halite-blue);
   }
 
-  .about-desktop p{
-    padding-right: 200px;
+  .lang-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .lang-list li {
+    margin-right: 8px;
+  }
+
+  .about-languages {
+    margin-right: 0;
+  }
+
+  .about-languages .lang-text,
+  .about-framworks .fram-text,
+  .about-skills .skills-text {
+    color: var(--gulf-blue);
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .about-languages .lang-arrow,
+  .about-framworks .fram-arrow,
+  .about-skills .skills-arrow {
+    margin-right: 0;
+  }
+
+  .contact {
+    background-image: url("assets/desk-contact-form-background-shapes@2x.png");
+    background-repeat: no-repeat;
+    background-size: cotain;
+    background-position: 5px 5px;
+    padding-bottom: 80px;
+  }
+
+  .contact p {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .contact-line {
+    display: none;
+  }
+
+  form input, form #message {
+    width: 40%;
+  }
+  
+  .submit-container {
+    justify-content: center;
   }
 }
