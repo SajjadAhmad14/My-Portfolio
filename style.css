@@ -32,6 +32,11 @@ header h1 {
   margin: 0;
 }
 
+header h1 a {
+  color: var(--blue-genie);
+  text-decoration: none;
+}
+
 .hamburger {
   color: var(--blue-genie);
   font-size: 22px;
@@ -416,6 +421,11 @@ form #submit {
     justify-content: space-between;
     width: 250px;
     color: var(--gulf-blue);
+  }
+
+  .nav-desktop a {
+    text-decoration: none;
+    color: var(--gulf-blue); 
   }
 
   header {
