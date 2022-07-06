@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://amazing-rugelach-a94b10.netlify.app/)
 
 
 ## Getting Started
