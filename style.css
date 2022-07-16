@@ -40,10 +40,32 @@ header h1 a {
 .hamburger {
   color: var(--blue-genie);
   font-size: 22px;
+  display: block;
+  z-index: 100;
+  position: absolute;
+  right: 6%;
 }
 
-.close-btn {
-  display: none; 
+.fa-xmark {
+  color: var(--blue-genie);
+  z-index: 4;
+}
+
+#background {
+  width: 100%;
+  height: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-color: var(--blue-genie);
+  opacity: 0.9;
+}
+
+.no-back {
+  display: none;
 }
 
 .headline {
@@ -416,6 +438,10 @@ form #submit {
 
 @media only screen and (min-width: 768px) {
   .hamburger {
+    display: none;
+  }
+
+  #background {
     display: none;
   }
 
