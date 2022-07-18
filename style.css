@@ -14,6 +14,10 @@ body {
   background-color: #e5e5e5; 
 }
 
+.overflow {
+  overflow: hidden
+}
+
 .blur-headline {
   -webkit-filter: blur(7px);
   -moz-filter: blur(7px);
@@ -80,6 +84,22 @@ header h1 a {
   display: none;
 }
 
+.overlay-nav {
+  position: absolute;
+  left: 5%;
+  top: 13%;
+}
+
+.overlay-nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.overlay-nav-item {
+  margin-bottom: 10px;
+}
 .headline {
   background-image: url("header-shapes-mobile.png");
   background-position: -10x -30px;
