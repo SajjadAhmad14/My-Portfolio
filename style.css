@@ -11,7 +11,15 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #e5e5e5; 
+}
+
+.blur-headline {
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -ms-filter: blur(7px);
+  -o-filter: blur(7px);
+  filter: blur(7px);
 }
 
 .poppins {
