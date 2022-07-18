@@ -47,8 +47,12 @@ header h1 a {
 }
 
 .fa-xmark {
-  color: var(--blue-genie);
+  color: var(--white);
   z-index: 4;
+  font-size: 40px;
+  position: absolute;
+  right: 5%;
+  top: 3%;
 }
 
 #background {
