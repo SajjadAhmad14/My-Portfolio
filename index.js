@@ -3,7 +3,6 @@ const background = document.getElementById("background");
 headline = document.querySelector(".headline");
 background.style.display = "none";
 body = document.querySelector("body")
-console.log(body)
 btn.addEventListener("click", () => {
   headline.classList.add("blur-headline");
   logo = document.getElementById("logo");
@@ -26,5 +25,9 @@ close.addEventListener("click", () => {
 document.querySelectorAll(".overlay-nav-item").forEach(item => {
   item.addEventListener("click", () => {
     background.style.display = "none";
+    body.classList.remove("overflow");
+    headline.classList.remove("blur-headline");
+    logo.style.display = "block";
+    btnContainer.style.display = "block";  
   })
 });
